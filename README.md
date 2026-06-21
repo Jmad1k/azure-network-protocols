@@ -11,8 +11,8 @@ This project focuses on securing cloud infrastructure and gaining visibility int
 ## Implementation Steps
 1. Created an Azure Virtual Network and deployed Virtual Machines.
 2. Configured Network Security Groups (NSGs) to control inbound/outbound traffic.
-3. Applied security rules to restrict RDP (port 3389) and other protocols.
-4. Performed packet capture and traffic analysis to verify rule effectiveness.
+3. Configured Network Security Groups (NSGs) with custom rules to control traffic flow.
+4. Validated security rule effectiveness by using ping (ICMP) and Wireshark to verify that traffic was successfully blocked.
 
 ## Project Evidence
 (Screenshots)
