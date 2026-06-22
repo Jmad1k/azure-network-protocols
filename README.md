@@ -15,4 +15,17 @@ This project focuses on securing cloud infrastructure and gaining visibility int
 4. Validated security rule effectiveness by using ping (ICMP) and Wireshark to verify that traffic was successfully blocked.
 
 ## Project Evidence
-(Screenshots)
+
+## Project Evidence
+
+### 1. Azure NSG Configuration
+![Azure NSG Inbound Security Rule](images/Azure_nsg_Config_Panel_edit.png)
+
+### 2. Azure Rule Close-up
+![Close up of NSG rule](images/NewRule_Closeup_edit.png)
+
+### 3. Wireshark Before Rule
+![Wireshark ICMP traffic before blockage](images/ping_TrafficFlow_before_edit.png)
+
+### 4. Traffic Blocked (After)
+![PowerShell and Wireshark showing blocked traffic](images/ping_TrafficFlow_After_deny_edit.png)
